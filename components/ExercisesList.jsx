@@ -54,7 +54,7 @@ const BodyExerciseCard = ({ item, router, index }) => {
           />
         </View>
         <Text className="text-neutral-700 font-semibold ml-1 tracking-wide">
-          {item?.name.lenght ? 21 && item.name.slice(0, 21) + "..." : item.name}
+          {item?.name.length ? 21 && item.name.slice(0, 21) + "..." : item.name}
         </Text>
       </TouchableOpacity>
     </Animated.View>

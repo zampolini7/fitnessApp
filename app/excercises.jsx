@@ -14,7 +14,7 @@ import { ScrollView } from "react-native-virtualized-view";
 const Excercises = () => {
   const router = useRouter();
   const item = useLocalSearchParams();
-  const [excercises, setExcercises] = useState(demoExercises);
+  const [excercises, setExcercises] = useState();
   console.log(item, "item33");
 
   useEffect(() => {
